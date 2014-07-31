@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>543to1</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+<!-- 	<a class="navbar-brand" href=<%= link_to image_tag("543to1_Logo.jpg", :border=>-10)%></a> -->
+<!--     <h1><a href="http://www.543to1.com"><i>543to1</i>活動記錄</a></h1> -->
+	<ul class="nav navbar-nav">
+        <li><a href="http://www.543to1.com/">Index</a></li>
+        <li><a href="https://www.facebook.com/ymow.wu">Who am I</a></li>
+        <li><a href="http://blog.543to1.com/service">SERVICE</a></li>
+        <li><a href="http://blog.543to1.com">PROJECTS</a></li>
+	</ul>
+</nav>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
